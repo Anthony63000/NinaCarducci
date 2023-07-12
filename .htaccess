@@ -1,0 +1,5 @@
+# Configuration des en-têtes de cache pour les fichiers CSS
+<IfModule mod_expires.c>
+  ExpiresActive on
+  ExpiresByType text/css "access plus 1 hour"
+</IfModule>
