@@ -1,3 +1,7 @@
+/* JavaScript */
+/*# sourceMappingURL=script.js.map */
+/* Cache-Control: max-age=3600 */
+
 (function($) {
   $.fn.mauGallery = function(options) {
     var options = $.extend($.fn.mauGallery.defaults, options);

@@ -1,3 +1,7 @@
+/* JavaScript */
+/*# sourceMappingURL=script.js.map */
+/* Cache-Control: max-age=3600 */
+
 $(document).ready(function() {
     $('.gallery').mauGallery({
         columns: {
