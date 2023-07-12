@@ -1,0 +1,5 @@
+defaults:
+  - scope:
+      path: "assets/images/"
+    values:
+      cache-control: "public, max-age=604800"
