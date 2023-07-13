@@ -1,5 +1,5 @@
-# Mettre en cache les images pendant 1 semaine
+
 <IfModule mod_expires.c>
     ExpiresActive On
-    ExpiresByType image/WEBP "access plus 10 month"
+    ExpiresByType image/WEBP "access plus 1 year"
 </IfModule>
