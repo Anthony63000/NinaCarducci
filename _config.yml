@@ -1,0 +1,12 @@
+
+# _config.yml
+
+compress_html:
+  comments: ["<!-- ", " -->"]
+  clippings: all
+
+compress_css:
+  enabled: true
+
+compress_js:
+  enabled: true
