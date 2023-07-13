@@ -4,7 +4,7 @@ self.addEventListener('install', function(event) {
       caches.open('images-cache').then(function(cache) {
         return cache.addAll([
           "./assets/images/gallery/portraits/XL/ade-tunji-rVkhWWZFAtQ-unsplash.WEBP",
-           "./assets/images/gallery/portraits/XL/ade-tunji-rVkhWWZFAtQ-unsplash.WEBP",
+           "./assets/images/gallery/portraits/S/ade-tunji-rVkhWWZFAtQ-unsplash.WEBP",
            "./assets/images/gallery/portraits/XL/nino-van-prattenburg--443cl1uR_8-unsplash.WEBP",
            "./assets/images/gallery/portraits/S/nino-van-prattenburg--443cl1uR_8-unsplash.WEBP",
           "./assets/images/slider/XL/ryoji-iwata-wUZjnOv7t0g-unsplash.WEBP",
