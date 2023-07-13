@@ -18,7 +18,7 @@ self.addEventListener('install', function(event) {
           cache.add('./assets/images/nina/S/nina.WEBP'),
           cache.add('./assets/images/gallery/concerts/XL/austin-neill-hgO1wFPXl3I-unsplash.WEBP'),
           cache.add('./assets/images/gallery/concerts/S/austin-neill-hgO1wFPXl3I-unsplash.WEBP'),
-          cache.add('./assets/images/gallery/concerts/XL/aaron-paul-wnX-fXzB6Cw-unsplashXL.WEBP'),
+          cache.add('./assets/images/gallery/concerts/XL/aaron-paul-wnX-fXzB6Cw-unsplash.WEBP'),
           cache.add('./assets/images/gallery/concerts/S/aaron-paul-wnX-fXzB6Cw-unsplashXL.WEBP'),
           cache.add('./assets/images/gallery/entreprise/XL/ali-morshedlou-WMD64tMfc4k-unsplash.WEBP'),
           cache.add('./assets/images/gallery/entreprise/S/ali-morshedlou-WMD64tMfc4k-unsplash.WEBP'),
