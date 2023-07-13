@@ -8,22 +8,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-	<meta charset="UTF-8">
-	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="./assets/maugallery.js"></script>
-	<script src="./assets/scripts.js"></script>
-	<script>
-		if ('serviceWorker' in navigator) {
-		  navigator.serviceWorker.register('/NinaCarducci/service-worker.js')
-			.then(function(registration) {
-			  console.log('Service Worker enregistré avec succès :', registration);
-			})
-			.catch(function(error) {
-			  console.log('Échec de l\'enregistrement du Service Worker :', error);
-			});
-		}
-	  </script>	  
+	<meta charset="UTF-8"> 
 </head>
 <body>
 <div class="top-header">
@@ -217,5 +202,22 @@
 		</div>
 	</div>
 </div>
+
+<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="./assets/maugallery.js"></script>
+	<script src="./assets/scripts.js"></script>
+	<script>
+		if ('serviceWorker' in navigator) {
+		  navigator.serviceWorker.register('/NinaCarducci/service-worker.js')
+			.then(function(registration) {
+			  console.log('Service Worker enregistré avec succès :', registration);
+			})
+			.catch(function(error) {
+			  console.log('Échec de l\'enregistrement du Service Worker :', error);
+			});
+		}
+	  </script>	 
+
 </body>
 </html>
